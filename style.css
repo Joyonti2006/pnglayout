@@ -1,0 +1,1077 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open sans;
+
+}
+
+
+
+
+/* ---------------------------------------------------------------
+                    header
+------------------------------------------------------------ */
+
+
+
+
+logo{
+
+}
+
+
+
+nav {
+
+
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.6);
+    padding: 24px;
+    height: 15vh;
+background-color: rgb(255, 255, 255);
+
+}
+
+
+nav ul{
+
+
+    display: flex;
+    float: left;
+}
+nav ul li {
+
+   list-style: none;
+}
+nav ul li a{
+    color: gray;
+    font-size: 1rem;
+    padding: 10px;
+text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: black
+}
+
+
+.right{
+    word-spacing: 10px;
+margin-left: -4%;
+font-size: 20px;
+}
+
+/* ---------------------------------------------------------------
+               Fixed
+------------------------------------------------------------ */
+#fixed{
+    position: fixed;
+transform: translate(780%);
+margin-top: 120px;
+
+
+}
+#fixed h4{
+
+    height: 40px;
+    width: 160%;
+    padding: 10px 0;
+    background-color:rgba(0,0,0,0.4);
+    color: #fff;
+    align-items: center;
+    margin-top: 5px;
+  text-align: center;
+  border-radius: 10px;
+cursor: pointer;
+}
+
+#fixed h4 :hover{
+    margin-left: 50px;
+    background-color: #0984e3;
+    color: #fff;
+}
+
+
+/* ---------------------------------------------------------------
+                    Banner
+------------------------------------------------------------ */
+ #banner{
+display: block;
+margin: 50px;
+height: 120vh;
+    background-color:#ddd;
+    border-radius: 20px;
+
+} 
+
+
+.banner-area{
+
+
+position: relative;
+
+}
+
+.banner-area img{
+    display: block;
+bottom: 90px;
+left: 100px;
+    height: 700px;
+    position: absolute;
+}
+
+.banner-title{
+padding:140px 100px;
+
+
+
+}
+
+
+.banner-title h5{
+    font-size: 20px;
+    letter-spacing: -2px;
+}
+
+.banner-title h3{
+    font-size: 80px;
+}
+
+.banner-title h1{
+
+    color: #fff;
+    font-size:170px;
+}
+
+.banner-title button{
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    height: 50px;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #EA2027;
+}
+
+.banner-title button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+
+
+
+
+.right{
+    padding-left: 45rem;
+    text-align: right;
+}
+
+.right h4{
+    font-size: 20px;
+}
+
+
+    .right p{
+        font-size: 14px;
+        line-height: 1.5rem;
+        color: gray;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .top_area{
+        margin: 50px;
+        list-style: none;
+
+    }
+    .top-area-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        grid-gap: 1rem;
+        margin: 20px 0;
+    }
+
+    .top-area-item{
+        padding-left: 30px;
+        overflow: hidden;
+    }
+
+
+    .top-area-item h4{
+   padding-bottom: 25px;
+    }
+    .top-area-item li a{
+        color: black;
+        text-decoration: none;
+    }
+    .top-area-item li a:hover{
+        color: #EA2027;
+    }
+
+/* ---------------------------------------------------------------
+                    Card
+------------------------------------------------------------ */
+
+
+
+#card{
+
+}
+
+.card-lis{
+    margin: 50px;
+display: grid;
+grid-template-columns: 1fr 1fr 2fr;
+grid-gap: 2rem;
+}
+
+.card-item1{
+    height: 60vh;
+    background-color: rgba(0,0,0,0.8);
+    position: relative;
+    border-radius: 30px;
+}
+
+.card-item1:hover{
+    box-shadow: 1px 1px 50px 0px rgba(0,0,0,0.8);
+    transition: 0.50s all ease;
+}
+
+
+.card-item1 img{
+    position: absolute;
+
+bottom:10px;
+    right: 20px;
+    height: 400px;
+}
+
+.title {
+margin:150px 30px;
+}
+
+.title h4{
+    color: #fff;
+    font-size: 20px;
+}
+.title h2{
+    color: #fff;
+    font-size: 30px;
+}
+.title h1{
+    color: rgba(143, 140, 140, 0.2);
+    font-size: 50px;
+}
+.title button{
+    margin-top: 20px;
+    border: none;
+    background-color: #EA2027;
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.title button:hover {
+    background-color: #ffffff;
+    color:#000000;
+}
+
+/* ------------card2---------------- */
+
+.card-item2{
+    height: 60vh;
+    background-color: #f1c40f;
+    position: relative;
+    border-radius: 30px;
+}
+
+
+.card-item2:hover{
+    box-shadow: 1px 1px 50px 0px #f1c40f;
+    transition: 0.50s all ease;
+}
+
+.card-item2 img{
+    position: absolute;
+left: 20px;
+top:0px;
+height: 250px;
+
+}
+
+.title2 {
+    margin:70px 30px;
+    }
+    
+    .title2 h2{
+        color: #fff;
+        font-size: 40px;
+    }
+    .title2 h4{
+        color: #fff;
+        font-size: 20px;
+    }
+
+
+
+
+
+.title2 h1{
+    color: rgba(238, 230, 230, 0.6);
+    font-size: 50px;
+}
+
+
+
+.title2 button{
+margin-top: 80px;
+    border: none;
+    background-color: #ffffff;
+color: #f1c40f;
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.title2 button:hover {
+    background-color: #000000;
+    color:#ffffff;
+}
+
+
+
+
+
+
+/* ------------card3---------------- */
+.card-item3{
+    height: 60vh;
+    background-color:#EA2027;
+    position: relative;
+    border-radius: 30px;
+
+}
+
+.card-item3:hover{
+    box-shadow: 1px 1px 50px 0px #EA2027;
+    transition: 0.50s all ease;
+}
+
+.card-item3 img{
+    position: absolute;
+left: 130px;
+top:0px;
+height: 400px;
+
+}
+
+.title3 {
+    margin:50px 30px;
+    }
+    
+    .title3 h2{
+        color: #fff;
+        font-size: 40px;
+    }
+    .title3 h4{
+        color: #fff;
+        font-size: 20px;
+    }
+
+
+
+
+
+.title3 h1{
+    color: rgba(238, 230, 230, 0.6);
+    font-size: 60px;
+}
+
+
+
+.title3 button{
+margin-top: 80px;
+    border: none;
+    background-color: #ffffff;
+color:#EA2027;
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.title3 button:hover {
+    background-color: #000000;
+    color:#ffffff;
+}
+
+
+    /* ---------------------------------------------------------------
+                    CARD SECTION 02
+------------------------------------------------------------ */
+
+
+
+
+
+
+.card-lis2{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+
+
+.card-item01{
+    height: 60vh;
+    background-color: #ecf0f1;
+    position: relative;
+    border-radius: 30px;
+}
+
+
+
+
+.card-item01:hover{
+    box-shadow: 1px 1px 50px 0px #ecf0f1;
+    transition: 0.50s all ease;
+}
+
+.card-item01 img{
+    position: absolute;
+    right: -1px;
+    height: 200px;
+top:180px;
+
+}
+
+.title01 {
+    padding: 50px;
+    /* margin-right:300px ;
+
+margin-top: 30px; */
+
+
+    }
+    
+    .title01 h2{
+
+        color: #000000;
+        font-size: 40px;
+    }
+    .title01 h4{
+        color: #000000;
+        font-size: 20px;
+    }
+
+
+
+
+
+.title01 h1{
+    color: rgba(255, 255, 255);
+    font-size: 60px;
+}
+
+
+
+.title01 button{
+margin-top: 20px;
+    border: none;
+    background-color: #EA2027;
+color: #fff;;
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.title01 button:hover {
+    background-color: #000000;
+    color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+.card-item02{
+    height: 60vh;
+
+    background-color:#2ecc71;
+    position: relative;
+    border-radius: 30px;
+}
+
+
+
+
+.card-item02:hover{
+    box-shadow: 1px 1px 50px 0px #2ecc71;
+    transition: 0.50s all ease;
+}
+
+.card-item02 img{
+    position: absolute;
+height: 160px;
+top:207px;
+width: 260px;
+right: -3px;
+
+}
+
+.title02 {
+    margin:5px;
+    padding:80px 20px;
+    }
+    
+    .title02 h2{
+        color: #ffffff;
+        font-size: 40px;
+    }
+    .title02 h4{
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+
+
+
+
+.title02 h1{
+    color: rgba(255, 255, 255,0.30);
+    font-size: 60px;
+}
+
+
+
+.title02 button{
+margin-top: 20px;
+    border: none;
+    background-color: #fff;
+color:#2ecc71;
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.title02 button:hover {
+    background-color: #000000;
+    color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-item03{
+    height: 60vh;
+    background-color: #3498db;
+    position: relative;
+    border-radius: 30px;
+}
+
+.card-item03:hover{
+    box-shadow: 1px 1px 50px 0px #3498db;
+    transition: 0.50s all ease;
+}
+
+.card-item03 img{
+    position: absolute;
+height: 160px;
+top: 220px;
+width: 260px;
+background-size: cover;
+left: 100px;
+
+}
+
+.title03 {
+    margin:5px;
+    padding:80px 20px;
+    }
+    
+    .title03 h2{
+        color: #ffffff;
+        font-size: 40px;
+    }
+    .title03 h4{
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+
+
+
+
+.title03 h1{
+    color: rgba(255, 255, 255,0.30);
+    font-size: 60px;
+}
+
+
+
+.title03 button{
+margin-top: 20px;
+    border: none;
+    background-color: #fff;
+color:#3498db;
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.title03 button:hover {
+    background-color: #000000;
+    color:#ffffff;
+}
+
+
+
+    /* ---------------------------------------------------------------
+                    INNER CARD
+------------------------------------------------------------ */
+#inner{
+    padding-top: 60px;
+}
+.inner-list{
+    margin:50px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.flex{
+    display: flex;
+}
+.inner-item{
+text-align: center;
+}
+
+.flex .fa-solid{
+    color: #EA2027;
+    font-size: 60px;
+    padding-right: 10px;
+}
+
+.inner-item p{
+  font-size: 20px;
+  color: gray;
+line-height: 2.0rem;
+    }
+.inner-item b{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+    }
+
+
+    /* ---------------------------------------------------------------
+                    Summer
+------------------------------------------------------------ */
+
+
+
+
+summer
+
+.summer-list{
+  
+}
+   .summer-item{
+    margin: 80px;
+    height: 80vh;
+    position: relative;
+    background-color: #EA2027;
+    border-radius: 50px;
+   }
+   .summer-item img{
+position: absolute;
+bottom: -30%;
+left: -10%;
+   }
+
+   .summer-item{
+    color: #fff;
+    padding: 100px;
+   }
+
+   .summer-item h6{
+    font-size: 20px;
+
+   }
+
+   .summer-item h1{
+   
+    font-size: 70px;
+   }
+
+
+   .summer-item h5{
+    font-size: 30px;
+   }
+ 
+   .summer-right{
+float: right;
+margin-left: 70%;
+   }
+
+   .summer-right button{
+    border: none;
+   }
+
+
+
+   .summer-right button{
+    margin-top: 20px;
+        border: none;
+        background-color: #fff;
+    color:#EA2027;
+        height: 40px;
+        width: 120px;
+        font-size: 17px;
+        border-radius: 20px;
+    }
+    
+
+    .summer-right button:hover{
+        background-color: #000 !important;
+        color: #fff !important;
+    }
+
+
+
+    /* ---------------------------------------------------------------
+               product card
+------------------------------------------------------------ */
+
+
+
+#product_card
+
+
+
+.procuct_title{
+    text-align: center;
+}
+.procuct_title h1{
+font-size: 40px;
+font-weight:700px;
+}
+.procuct_title p{ 
+color: gray;
+font-size: 16px;
+}
+
+
+.product-card-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 50px;
+}
+
+
+
+.product-card-item h3{
+color: rgb(128, 128, 128);
+}
+
+.product-card-item img{
+height: 260px;
+width: 100%;
+border-radius: 20px;
+}
+.product-card-item p{
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+
+
+    /* ---------------------------------------------------------------
+               green
+------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+summer
+
+.green-list{
+  
+}
+   .green-item{
+    margin: 80px;
+    height: 80vh;
+    position: relative;
+    background-color: #2ecc71;
+    border-radius: 50px;
+   }
+   .green-item img{
+position: absolute;
+bottom: -15%;
+left:50px;
+   }
+
+   .green-item{
+    color: #fff;
+    padding: 100px;
+   }
+
+   .green-item h6{
+    font-size: 40px;
+
+   }
+
+   .green-item h1{
+ 
+    font-size: 70px;
+   }
+
+   .green-item h2{
+   
+    font-size: 40px;
+   }
+
+
+   .green-item h5{
+    font-size: 30px;
+   }
+ 
+   .green-right{
+float: right;
+margin-top: -16%;
+margin-left: 70%;
+   }
+
+   .green-right button{
+    border: none;
+   }
+
+
+
+   .green-right button{
+    margin-top: 20px;
+        border: none;
+        background-color: #fff;
+    color:#2ecc71;
+        height: 40px;
+        width: 120px;
+        font-size: 17px;
+        border-radius: 20px;
+    }
+    
+
+
+    .green-right button:hover{
+        background-color: #000;
+        color: #fff;
+    }
+
+
+
+    /* ---------------------------------------------------------------
+               last
+------------------------------------------------------------ */
+
+.inner-title{
+    text-align: center;
+    padding: 30px;
+
+}
+
+
+
+
+.inner-title h2{
+    font-size: 40px;
+}
+.inner-title p{
+    font-size: 20px;
+    color: gray;
+}
+
+.inner_list{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.inner_list img{
+ 
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.inner-item  span{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.inner_list h2{
+    padding-top: 10px;
+}
+.inner_list p{
+    padding-top: 20px;
+    text-align: left;
+}
+
+
+
+    /* ---------------------------------------------------------------
+               gray
+------------------------------------------------------------ */
+
+
+#gray{
+    margin-top: 100px;
+}
+
+.gray-list{
+    padding: 40px 100px;
+
+    height: 30vh;
+
+    background-color: #bdc3c7;
+
+}
+
+
+.gray-item{
+
+    grid-gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.gray-item img{
+color: #bdc3c7;
+   
+}
+
+
+.gray-item img:hover{
+    color: #ef0000;
+}
+
+
+    /* ---------------------------------------------------------------
+                    FOOTER
+------------------------------------------------------------ */
+
+    .top-area-item h2{
+        font-size: 30px;
+    }
+
+    .top-area-item input{
+        margin: 20px 0;
+        border: none;
+        background-color: #ddd;
+        height: 70px;
+        width: 90%;
+outline: none;
+border-radius: 30px;
+   
+    }
+    .top-area-item ::placeholder{
+padding-left: 50px;
+    }
+    .top-area-item button{
+        border: none;
+padding:10px 14px;
+border-radius: 50px;
+        background-color: #EA2027;
+        margin-left: -30%;
+    }
+    .top-area-item button a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+    
+    }
+
+
+
+    .top-area-item p{
+        padding-top: 25px;
+        line-height: 25px;
+        color: gray;
+    }
+
+    .btn{
+
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        color: gray;
+        background-color: #000;
+    }
